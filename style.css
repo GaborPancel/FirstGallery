@@ -1,53 +1,78 @@
 .background{
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding:0;
-    background-image: linear-gradient(to right, #e6e6e6,#ffffff,#e6e6e6);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  margin:0;
+  padding:0;
+  background-image: linear-gradient(to right, #e3e3e3,#ffffff,#e3e3e3);
+}
+
+.container{
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  margin-left: -450px;
+  width: 900px;
+  height: 350px;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
   }
-  
-  .container{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -248px;
-    margin-left: -640px;
-    width: 1280px;
-    height: 495px;
-    background: #fafafa;
-    display: flex;
-    align-items: center;
+
+
+.arrow{
+  width: 50px;
+  height: 350px;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
   }
-  
-  .arrow{
-    width: 74px;
-    height: 100%;
-    background: #fafafa;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-  
-  .Center {
-    position: relative;
-    width: 1130px;
-    height: 495px;
-    }
-  
-  .Big{
-    width: 1130px;
-    height: 495px;
-       }
-  
-  .Title{
-  position: absolute;
-  width: 1130px;
-  height: 135px;
-  background: #000000;
-  opacity: 0.5;
-  top: 360px;
-  left: 0px;
-  margin: 0px;
-  padding: 0px;
+
+.Center {
+  position: relative;
+  width: 800px;
+  height: 350px;
   }
+
+.Big{
+  width: 800px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.ArrowRight{
+  transform: rotate(0.5turn);
+}
+
+.TextBox{
+position: absolute;
+width: 800px;
+height: 100px;
+background: #000000;
+opacity: 0.6;
+top: 250px;
+left: 0px;
+margin: 0px;
+padding: 0px;
+}
+
+h1{
+  color: whitesmoke;
+  margin-left: 80px;
+  margin-top: 30px;
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 0.2em;
+  font-weight: 300;
+  }
+
+p{
+  color: whitesmoke;
+  margin-left: 80px;
+  margin-bottom: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: italic;
+   font-size: 20px;
+}
